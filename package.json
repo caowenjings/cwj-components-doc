@@ -18,6 +18,9 @@
   ],
   "module": "dist/esm/index.js",
   "typings": "dist/esm/index.d.ts",
+  "sideEffects": [
+    "./src/**/*.less"
+  ],
   "gitHooks": {
     "pre-commit": "lint-staged"
   },
